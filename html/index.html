@@ -19,7 +19,7 @@ s.onupdate=function(data){ //callback to update data in UI
 }
 s.onend=function(aborted){ //callback for test ended/aborted
     I("startStopBtn").className=""; //show start button again
-    if(aborted){ //if the test was aborted, clear the UI and prepare for new test
+    if(aborted){ //if the test was aborted, clear the GUI and prepare for new test
 		initUI();
     }
 }
